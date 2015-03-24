@@ -1,0 +1,51 @@
+You are given an array of N integers A[1] , A[2] , ... , A[N] . You have to answer Q queries. Each query consists of 3 integers L, R and K. For each query, you have to find the value of the Skipping Sum in the following manner :
+
+       def skipping_sum(L,R,K) :
+              sum = 0
+              while L <= R :
+                    sum = sum + A[L]
+                    L = L + K
+              return sum
+
+Input
+The first line consists of 2 space separated integers N and Q. The next line consists of N space separated integers, the ith integer being A[i]. Then, Q lines follow, each line consisting of 3 space separated integers L, R and K.
+
+Output
+Print the answer to each query on a new line.
+
+Constraints
+1 ≤ N ≤ 105
+1 ≤ Q ≤ 105
+0 ≤ A[i] ≤ 105
+1 ≤ L ≤ R ≤ N
+1 ≤ K ≤ 10
+
+NOTE:
+We are using 1-based indexing for array A.
+Sample Input (Plaintext Link)
+
+8 6
+5 4 2 1 7 9 10 9
+1 8 1
+1 8 2
+4 8 9
+3 7 2
+3 7 3
+3 7 4
+
+Sample Output (Plaintext Link)
+
+47
+24
+1
+19
+11
+12
+
+Explanation
+For query 1 : A[1] + A[2] + A[3] + A[4] + A[5] + A[6] + A[8] = 47
+For query 2 : A[1] + A[3] + A[5] + A[7] = 24
+For query 3 : A[4] = 1
+For query 4 : A[3] + A[5] + A[7] = 19
+For query 5 : A[3] + A[6] = 11
+For query 6 : A[3] + A[7] = 12

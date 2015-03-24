@@ -1,0 +1,17 @@
+from re import match
+
+def verify_account_no(account_number):
+	if re.match(r'^[0-9]{9}$', account_number):
+		values_collect = []
+		for i, character in enumerate(reversed(account_number)):
+			value = int(character)
+			if i<8:
+				values_collect.append(value+i+2)
+			else:
+				values_collect.append(value)
+		check_value = 0
+		for i in range(0, 9):
+			check_value += i*values_collect[i]
+	else:
+		return False
+	return check_value%11 == 0

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<QuestionsDoc>
+  <questionspreamble>Paper 1</questionspreamble>
+    <questionsection>
+      <questionSectiontype>Single Correct Answer Type</questionSectiontype>
+          <question>
+            <qno>1</qno>
+            <questioninfo> Text of question 1
+ </questioninfo>
+            <answers>
+              <answer>
+                <opt>a</opt>
+                <answerinfo> Option 1.a
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>b</opt>
+                <answerinfo> Option 1.b
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>c</opt>
+                <answerinfo> Option 1.c
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>d</opt>
+                <answerinfo> Option 1.d
+
+
+</answerinfo>
+              </answer>
+            </answers>
+          </question>
+          <question>
+            <qno>2</qno>
+            <questioninfo> Text of question 2
+ </questioninfo>
+            <answers>
+              <answer>
+                <opt>a</opt>
+                <answerinfo> This is an example of Option 2.a
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>b</opt>
+                <answerinfo> Option 2.b has a special char α
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>c</opt>
+                <answerinfo> Option 2.c
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>d</opt>
+                <answerinfo> Option 2.d
+
+</answerinfo>
+              </answer>
+            </answers>
+          </question>
+          <question>
+            <qno>3</qno>
+            <questioninfo> Text of question 3
+ </questioninfo>
+            <answers>
+              <answer>
+                <opt>a</opt>
+                <answerinfo> Option 3.a can span multiple
+     lines.
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>b</opt>
+                <answerinfo> Option 3b
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>c</opt>
+                <answerinfo> Option 3c
+ </answerinfo>
+              </answer>
+              <answer>
+                <opt>d</opt>
+                <answerinfo>Option 3d
+
+</answerinfo>
+              </answer>
+            </answers>
+          </question>
+    </questionsection>
+</QuestionsDoc>
